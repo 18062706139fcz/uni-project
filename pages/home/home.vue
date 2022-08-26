@@ -1,5 +1,9 @@
 <template>
 	<view>
+		<!-- search -->
+		<view class="searchBox">
+			<mySearch @click="gotoSearch"></mySearch>
+		</view>
 		<!-- 轮播图区域 -->
 		<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
 			<swiper-item v-for="(item, i) in swiperList" :key="i">
@@ -39,6 +43,7 @@
 </template>
 
 <script>
+	import mySearch from '@/components/mySearch/mySearch.vue'
 	export default {
 		data() {
 			return {
@@ -89,12 +94,23 @@
 					uni.switchTab({
 						url: '/pages/cate/cate'
 				})
+			},
+			gotoSearch() {
+				uni.navigateTo({
+					url: '/subpkg/search/search'
+				})
 			}
 		}
 	}
 </script>
 
 <style lang="scss">
+.searchBox {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	// height: 50px;
+}
 swiper {
 	height: 330rpx;
 	.swiper-item 

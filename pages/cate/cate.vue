@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<mySearch @click="gotoSearch"></mySearch>
 		<view class="scroll-view-container">
 			<!-- :style="{height: wh + 'px'}"是干嘛的？？？ -->
 			<scroll-view scroll-y :style="{height: wh + 'px'}" class="left-scroll-view">
@@ -28,7 +29,11 @@
 </template>
 
 <script>
+	// 应该主要是路径问题
+	import mySearch from '@/components/mySearch/mySearch.vue'
 	export default {
+		// 需要注册组件的嗷
+		components: {mySearch},
 		data() {
 			return {
 				// 窗口可用高度 = 视图高度 - tabBar高度 - navigator高度
@@ -47,7 +52,7 @@
 			// get system info
 			const sysInfo = uni.getSystemInfoSync()
 			// give wh value dynamically
-			this.wh = sysInfo.windowHeight
+			this.wh = sysInfo.windowHeight - 50
 			// 获取左侧categories信息
 			this.getCateList()
 		},
@@ -72,6 +77,11 @@
 			gotoGoodsList(item) {
 				uni.navigateTo({
 					url: '/subpkg/goods_list/goods_list?cid=' + item.cat_id
+				})
+			},
+			gotoSearch() {
+				uni.navigateTo({
+					url: '/subpkg/search/search'
 				})
 			}
 		}

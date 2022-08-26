@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['searchBoxHandler',['$event']]]]]}}" class="my-search-container" style="{{'background-color:'+(bgcolor)+';'}}" bindtap="__e"><view class="my-search-box" style="{{'border-radius:'+(radius+'px')+';'}}"><uni-icons vue-id="7bd4f5fc-1" type="circle-filled" size="17" bind:__l="__l"></uni-icons><text class="placeholder">搜索</text></view></view>

@@ -8,8 +8,8 @@
         "miniprogram": {
             "list": [
                 {
-                    "name": "开发分类页面",
-                    "pathName": "pages/cate/cate",
+                    "name": "开发搜索页面",
+                    "pathName": "subpkg/search/search",
                     "query": "",
                     "launchMode": "default",
                     "scene": null
