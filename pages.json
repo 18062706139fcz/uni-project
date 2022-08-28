@@ -14,7 +14,8 @@
 			"path": "pages/my/my",
 			"style": {}
 		}
-	],
+	    
+    ],
 	"subPackages": [
 		{
 			"root": "subpkg",

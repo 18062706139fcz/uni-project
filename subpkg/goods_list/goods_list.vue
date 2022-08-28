@@ -68,7 +68,7 @@
 				// 迭代
 				// this.goodsList = [...this.goodsList, ...res.message.goods]
 				this.total = res.message.total
-				console.log(this.goodsList)
+				// console.log(this.goodsList)
 				// console.log(this.goodsList)
 			},
 			gotoDetail(item) {

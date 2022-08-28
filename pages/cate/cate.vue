@@ -31,6 +31,7 @@
 <script>
 	// 应该主要是路径问题
 	import mySearch from '@/components/mySearch/mySearch.vue'
+	import badgeMix from '@/mixins/tabberBadge.js'
 	export default {
 		// 需要注册组件的嗷
 		components: {mySearch},
@@ -84,7 +85,8 @@
 					url: '/subpkg/search/search'
 				})
 			}
-		}
+		},
+		mixins: [badgeMix]
 	}
 </script>
 

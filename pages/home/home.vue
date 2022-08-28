@@ -44,7 +44,9 @@
 
 <script>
 	import mySearch from '@/components/mySearch/mySearch.vue'
+	import badgeMix from '@/mixins/tabberBadge.js'
 	export default {
+		// mixins: [badgeMix],
 		data() {
 			return {
 				// 实现轮播图区域
@@ -100,7 +102,8 @@
 					url: '/subpkg/search/search'
 				})
 			}
-		}
+		},
+		mixins: [badgeMix],
 	}
 </script>
 
