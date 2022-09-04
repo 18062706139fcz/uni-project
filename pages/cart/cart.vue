@@ -122,9 +122,9 @@
 		},
 		computed: {
 			...mapState('m_cart', ['cart']),
-			...mapGetters('m_cart', ['total', 'checkedCount', 'checkGoodsAmount']),
+			...mapGetters('m_cart', ['total', 'checkCount', 'checkGoodsAmount']),
 			ifFullCheck() {
-				return this.total === this.checkedCount
+				return this.total === this.checkCount
 				// 然后给radio组件动态绑定checked属性的值。
 			}
 		},

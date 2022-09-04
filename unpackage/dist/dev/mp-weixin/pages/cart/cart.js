@@ -416,9 +416,9 @@ var _vuex = __webpack_require__(/*! vuex */ 14);function _interopRequireDefault(
 
   computed: _objectSpread(_objectSpread(_objectSpread({},
   (0, _vuex.mapState)('m_cart', ['cart'])),
-  (0, _vuex.mapGetters)('m_cart', ['total', 'checkedCount', 'checkGoodsAmount'])), {}, {
+  (0, _vuex.mapGetters)('m_cart', ['total', 'checkCount', 'checkGoodsAmount'])), {}, {
     ifFullCheck: function ifFullCheck() {
-      return this.total === this.checkedCount;
+      return this.total === this.checkCount;
       // 然后给radio组件动态绑定checked属性的值。
     } }),
 
