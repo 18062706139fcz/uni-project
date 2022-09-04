@@ -20,5 +20,10 @@
 		onShow() {
 			// uni.setTabBarBadge
 			this.setBadge()
+		},
+		watch: {
+			total() {
+				this.setBadge()
+			}
 		}
 	}

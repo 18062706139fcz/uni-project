@@ -1,1 +1,1 @@
-<view></view>
+<view><view class="cart_container"><view class="cart_title"><text>left</text><text class="cart_title_text">购物车</text></view><view class="empty_cart"><image class="empty_img" src="../../static/find_off.png"></image><text class="tip_text">空空如也</text></view><view class="bottom"><label class="radio"><radio color="#C00000" checked="{{true}}"></radio><text>全选</text></label><view class="amount_box">合计:<text>¥1234.00</text></view><view class="btn_settle">结算(0)</view></view></view></view>

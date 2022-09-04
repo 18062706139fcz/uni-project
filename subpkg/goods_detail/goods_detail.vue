@@ -35,6 +35,7 @@
 </template>
 
 <script>
+	
 	// 从 vuex 中按需导出 mapState 辅助方法
 	import { mapState } from 'vuex'
 	import { mapMutations } from 'vuex'
@@ -127,7 +128,7 @@
 		watch: {
 			// 当total的值发生变化了的时候
 			/********************  useful thing  ***********************/ 
-			// 但是使用 watch 页面首次加载的时候并不会被调用，所以需要在total那里就实行监听
+			// 但是使用 watch 页面首次加载的时候并不会被调用，可以使用对象的形式来定义  ！！！
 			// total(newVal) {
 			// 	// 找到有购物车的这个玩意
 			// 	const findResult = this.options.find((x) => x.text === '购物车')
@@ -135,6 +136,16 @@
 			// 		findResult.info = newVal
 			// 	}
 			// }
+			total: {
+				handler(newVal) {
+					const findResult = this.options.find((x) => x.text === '购物车')
+					if(findResult) {
+						findResult.info = newVal
+					}
+				}
+				// immediate 属性用来声明此侦听器，是否在页面初次加载完毕后立即调用
+				// immediate: true
+			}
 		}
 	}
 </script>

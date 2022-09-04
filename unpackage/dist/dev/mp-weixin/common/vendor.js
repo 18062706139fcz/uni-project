@@ -2500,57 +2500,6 @@ uni$1;exports.default = _default;
 
 /***/ }),
 
-/***/ 103:
-/*!*******************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
-  \*******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 104));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 105));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 106));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
-{
-  en: _en.default,
-  'zh-Hans': _zhHans.default,
-  'zh-Hant': _zhHant.default };exports.default = _default;
-
-/***/ }),
-
-/***/ 104:
-/*!******************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
-  \******************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
-
-/***/ }),
-
-/***/ 105:
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
-  \***********************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
-
-/***/ }),
-
-/***/ 106:
-/*!***********************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
-  \***********************************************************************************************************************************/
-/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
-
-/***/ }),
-
 /***/ 11:
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -2680,6 +2629,24 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ 119:
+/*!*****************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 120));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 121));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 122));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+{
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default };exports.default = _default;
+
+/***/ }),
+
 /***/ 12:
 /*!*******************************************************************************************************************************!*\
   !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/node_modules/@escook/request-miniprogram/miniprogram_dist/index.js ***!
@@ -2765,6 +2732,39 @@ var $http = new Request();exports.$http = $http;
 
 /***/ }),
 
+/***/ 120:
+/*!****************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
+  \****************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-goods-nav.options.cart\":\"cart\",\"uni-goods-nav.buttonGroup.addToCart\":\"add to cart\",\"uni-goods-nav.buttonGroup.buyNow\":\"buy now\"}");
+
+/***/ }),
+
+/***/ 121:
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-goods-nav.options.cart\":\"购物车\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入购物车\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即购买\"}");
+
+/***/ }),
+
+/***/ 122:
+/*!*********************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-goods-nav.options.cart\":\"購物車\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入購物車\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即購買\"}");
+
+/***/ }),
+
 /***/ 13:
 /*!***************************************************************************!*\
   !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/store/store.js ***!
@@ -2776,19 +2776,75 @@ var $http = new Request();exports.$http = $http;
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 4));
 var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 14));
-var _cart = _interopRequireDefault(__webpack_require__(/*! ./cart.js */ 15));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 1. 导入 Vue 和 Vuex
-// 2. 将 Vuex 安装为 Vue 的插件
-_vue.default.use(_vuex.default);
 
-// 3. 创建 store 实例
+var _cart = _interopRequireDefault(__webpack_require__(/*! ./cart.js */ 15));
+
+var _user = _interopRequireDefault(__webpack_require__(/*! ./user.js */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 1. 导入 Vue 和 Vuex
+// 1. 导入购物车的 vuex 模块
+// 2. 将 Vuex 安装为 Vue 的插件
+_vue.default.use(_vuex.default); // 3. 创建 store 实例
 var store = new _vuex.default.Store({
   // 挂载 store 模块
   modules: {
-    m_cart: _cart.default } });
+    // 2. 挂载购物车的 vuex 模块，模块内成员的访问路径被调整为 m_cart，例如：
+    //    购物车模块中 cart 数组的访问路径是 m_cart/cart
+    m_cart: _cart.default,
+    m_user: _user.default } });
 
 
 // 4. 向外导出 store 的实例对象
 var _default = store;exports.default = _default;
+
+/***/ }),
+
+/***/ 130:
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 131));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 132));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 133));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+{
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default };exports.default = _default;
+
+/***/ }),
+
+/***/ 131:
+/*!******************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
+  \******************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
+
+/***/ }),
+
+/***/ 132:
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
+
+/***/ }),
+
+/***/ 133:
+/*!***********************************************************************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
 
 /***/ }),
 
@@ -4075,7 +4131,7 @@ module.exports = index_cjs;
     addToCart: function addToCart(state, goods) {
       // 根据提交的商品的Id，查询购物车中是否存在这件商品
       // 如果不存在，则 findResult 为 undefined；否则，为查找到的商品信息对象
-      var findResult = state.cart.find(function (x) {return x.goods_name === goods.goods_name;});
+      var findResult = state.cart.find(function (x) {return x.goods_id === goods.goods_id;});
       if (!findResult) {
         state.cart.push(goods);
       } else {
@@ -4086,6 +4142,34 @@ module.exports = index_cjs;
     },
     saveStorage: function saveStorage(state) {
       uni.setStorageSync('cart', JSON.stringify(state.cart));
+    },
+    updateGoodsState: function updateGoodsState(state, goods) {
+      var findResult = state.cart.find(function (x) {return x.goods_id === goods.goods_id;});
+      // 只有找到了才会，也才能变更状态
+      if (findResult) {
+        // 更新对应商品的勾选状态
+        findResult.goods_state = goods.goods_state;
+        // 持久化存储到本地
+        this.commit('m_cart/saveStorage');
+      }
+    },
+    updateGoodsCount: function updateGoodsCount(state, goods) {
+      // 找到这个东西
+      var findResult = state.cart.find(function (x) {return x.goods_id === goods.goods_id;});
+      if (findResult) {
+        findResult.goods_count = goods.goods_count;
+        this.commit('m_cart/saveStorage');
+      }
+    },
+    removeGoodsById: function removeGoodsById(state, goods) {
+      state.cart = state.cart.filter(function (x) {return x.goods_id != goods.goods_id;});
+      this.commit('m_cart/saveStorage');
+    },
+    updateAllGoodsState: function updateAllGoodsState(state, newState) {
+      // 这里forEach是原地操作
+      state.cart.forEach(function (x) {return x.goods_state = newState;});
+      // 持久化存储到本地
+      this.commit('m_cart/saveStorage');
     } },
 
 
@@ -4096,7 +4180,57 @@ module.exports = index_cjs;
       var all = 0;
       state.cart.forEach(function (item) {return all += item.goods_count;});
       return all;
+    },
+    // 用来统计已勾选商品的总数量
+    checkCount: function checkCount(state) {
+      // 先用filter方法，从购物车中过滤已勾选商品
+      // 再使用reduce方法，将已勾选的商品总数量进行累加
+      // reduce() 的返回值就是已勾选的商品的总数量
+      return state.cart.filter(function (x) {return x.goods_state;}).reduce(function (total, item) {return total += item.goods_count;}, 0);
+    },
+    // 已勾选的商品的总价格
+    checkGoodsAmount: function checkGoodsAmount(state) {
+      return state.cart.filter(function (x) {return x.goods_state;}).
+      reduce(function (total, item) {return total += item.goods_count * item.goods_price;}, 0).
+      toFixed(2);
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 16:
+/*!**************************************************************************!*\
+  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/store/user.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  // 开启命名空间
+  namespaced: true,
+
+  // state 数据
+  state: function state() {return {
+      // 收货地址
+      address: JSON.parse(uni.getStorageSync('address') || '{}') };},
+
+
+  // 方法
+  mutations: {
+    updateAddress: function updateAddress(state, address) {
+      state.address = address;
+
+      this.commit('m_user/saveAddressToStorage');
+    },
+    // 因为是公用的存储方法，所以最好不要直接写在updateAddress里面
+    saveAddressToStorage: function saveAddressToStorage(state) {
+      uni.setStorageSync('address', JSON.stringify(state.address));
+    } },
+
+
+  // 数据包装器
+  getters: {} };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
@@ -4132,18 +4266,18 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 22:
+/***/ 23:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 23);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 24);
 
 /***/ }),
 
-/***/ 23:
+/***/ 24:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -4174,7 +4308,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 24);
+module.exports = __webpack_require__(/*! ./runtime */ 25);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -4191,7 +4325,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 24:
+/***/ 25:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -5387,7 +5521,7 @@ function resolveLocaleChain(locale) {
 
 /***/ }),
 
-/***/ 32:
+/***/ 33:
 /*!**********************************************************************************!*\
   !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/mixins/tabberBadge.js ***!
   \**********************************************************************************/
@@ -5417,7 +5551,11 @@ function resolveLocaleChain(locale) {
   onShow: function onShow() {
     // uni.setTabBarBadge
     this.setBadge();
-  } };exports.default = _default;
+  },
+  watch: {
+    total: function total() {
+      this.setBadge();
+    } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
@@ -11483,7 +11621,7 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 84:
+/***/ 87:
 /*!****************************************************************************************************************!*\
   !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \****************************************************************************************************************/
@@ -12657,57 +12795,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     "font_class": "cart",
     "unicode": "e631",
     "unicode_decimal": 58929 }] };exports.default = _default;
-
-/***/ }),
-
-/***/ 92:
-/*!*****************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/index.js ***!
-  \*****************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 93));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 94));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 95));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
-{
-  en: _en.default,
-  'zh-Hans': _zhHans.default,
-  'zh-Hant': _zhHant.default };exports.default = _default;
-
-/***/ }),
-
-/***/ 93:
-/*!****************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/en.json ***!
-  \****************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"shop\",\"uni-goods-nav.options.cart\":\"cart\",\"uni-goods-nav.buttonGroup.addToCart\":\"add to cart\",\"uni-goods-nav.buttonGroup.buyNow\":\"buy now\"}");
-
-/***/ }),
-
-/***/ 94:
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hans.json ***!
-  \*********************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店铺\",\"uni-goods-nav.options.cart\":\"购物车\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入购物车\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即购买\"}");
-
-/***/ }),
-
-/***/ 95:
-/*!*********************************************************************************************************************************!*\
-  !*** /Users/fengcaizhi/Desktop/落子无悔/程序/小程序all/uni-project/uni_modules/uni-goods-nav/components/uni-goods-nav/i18n/zh-Hant.json ***!
-  \*********************************************************************************************************************************/
-/*! exports provided: uni-goods-nav.options.shop, uni-goods-nav.options.cart, uni-goods-nav.buttonGroup.addToCart, uni-goods-nav.buttonGroup.buyNow, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("{\"uni-goods-nav.options.shop\":\"店鋪\",\"uni-goods-nav.options.cart\":\"購物車\",\"uni-goods-nav.buttonGroup.addToCart\":\"加入購物車\",\"uni-goods-nav.buttonGroup.buyNow\":\"立即購買\"}");
 
 /***/ })
 
