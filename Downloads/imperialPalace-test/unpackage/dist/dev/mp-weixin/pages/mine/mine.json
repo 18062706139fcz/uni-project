@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#c6b089",
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge"
+  }
+}

@@ -1,0 +1,145 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarTextStyle": "black"
+				// "navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/find/cultural_map",
+			"style": {
+				"navigationBarTitleText": "文化地图",
+				"navigationBarTextStyle": "black"
+				// "navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/find/cultural_guided_tour",
+			"style": {
+				"navigationBarTitleText": "文化导览",
+				"navigationBarTextStyle": "black"
+				// "navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/find/cultural_collage",
+			"style": {
+				"navigationBarTitleText": "文化拼贴",
+				"navigationBarTextStyle": "black"
+				// "navigationBarBackgroundColor":"#ffffff"
+			}
+		}, 
+		{
+			"path": "pages/find/creativity_IP",
+			"style": {
+				"navigationBarTitleText": "创艺IP",
+				"navigationBarTextStyle": "black"
+				// "navigationBarBackgroundColor":"#ffffff"
+			}
+		}, 
+		{
+			"path": "pages/explore/explore",
+			"style": {
+				"navigationBarTitleText": "探索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/admire/admire",
+			"style": {
+				"navigationBarTitleText": "观赏",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "添加",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarBackgroundColor": "#c6b089",
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "component/card/card",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/find/creativeHandicraft",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "white",
+		// "navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"backgroundColor": "#fdfbef",
+		"color": "#816b3b",
+		"selectedColor": "#853e38",
+		"list": [{
+				"pagePath": "pages/find/find",
+				"text": "发现",
+				"iconPath": "static/tabbar_img/find_off.png",
+				"selectedIconPath": "static/tabbar_img/find_on.png"
+			},
+			{
+				"pagePath": "pages/explore/explore",
+				"text": "探索",
+				"iconPath": "static/tabbar_img/explore_off.png",
+				"selectedIconPath": "static/tabbar_img/explore_on.png"
+			},
+			{
+				"pagePath": "pages/add/add",
+				"iconPath": "static/tabbar_img/useless5.png",
+				"selectedIconPath": "static/tabbar_img/useless5.png"
+			},
+			{
+				"pagePath": "pages/admire/admire",
+				"text": "观赏",
+				"iconPath": "static/tabbar_img/admire_off.png",
+				"selectedIconPath": "static/tabbar_img/admire_on.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar_img/mine_off.png",
+				"selectedIconPath": "static/tabbar_img/mine_on.png"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "我的",
+			"path": "pages/mine/mine"
+		}]
+	}
+
+
+}
